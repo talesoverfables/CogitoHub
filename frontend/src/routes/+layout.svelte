@@ -1,20 +1,38 @@
 <script>
 	import '../app.css';
+	import User from '$lib/components/user.svelte';
+	import { supabase } from '$lib/supabaseClient';
+	import { user } from '$lib/stores/userStore';
+	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
 
 	// Props for SvelteKit layouts
 	let { children } = $props();
 
-	// User Icon
-	import UserIcon from '/src/lib/Images/user1.png';
+	onMount(async () => {
+		if (browser) {
+			// Get initial session
+			const { data: { session } } = await supabase.auth.getSession();
+			if (session) {
+				user.set(session.user);
+			}
+
+			// Listen for auth changes
+			const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+				user.set(session?.user ?? null);
+			});
+
+			// Cleanup subscription on unmount
+			return () => subscription.unsubscribe();
+		}
+	});
 </script>
 
 <div class="min-h-screen flex flex-col bg-gray-100 font-sans">
-	
 	<!-- Navigation Bar -->
 	<nav class="sticky top-0 bg-white shadow-md z-50">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="flex justify-between items-center h-16">
-
 				<!-- Left side: Links -->
 				<div class="flex space-x-6">
 					<a href="/" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-semibold">Home</a>
@@ -25,18 +43,16 @@
 				</div>
 
 				<!-- Right side: User Profile -->
-				<div class="flex items-center space-x-3">
-					<img src={UserIcon} alt="User Icon" class="w-9 h-9 rounded-full border-2 border-cyan-400" />
-					<span class="text-gray-700 text-sm font-medium">/user</span>
+				<div class="flex items-center">
+					<User />
 				</div>
-
 			</div>
 		</div>
 	</nav>
 
 	<!-- Main Content -->
 	<main class="flex-grow">
-		<slot />
+		{@render children()}
 	</main>
 
 	<!-- Footer -->
