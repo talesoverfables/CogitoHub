@@ -35,11 +35,11 @@
 			<div class="flex justify-between items-center h-16">
 				<!-- Left side: Links -->
 				<div class="flex space-x-6">
-					<a href="/" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-semibold">Home</a>
-					<a href="/coursito" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-semibold">Coursito</a>
-					<a href="/querito" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-semibold">Querito</a>
-					<a href="/coachpilot" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-semibold">Coachpilot AI</a>
-					<a href="/resources" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-semibold">Resources</a>
+					<a href="/" class="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white px-3 py-2 rounded-md text-sm font-semibold">Home</a>
+					<a href="/dashboard" class="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white px-3 py-2 rounded-md text-sm font-semibold">Dashboard</a>
+					<a href="/notes" class="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white px-3 py-2 rounded-md text-sm font-semibold">Notes</a>
+					<a href="/projects" class="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white px-3 py-2 rounded-md text-sm font-semibold">Projects</a>
+					<a href="/resources" class="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white px-3 py-2 rounded-md text-sm font-semibold">Resources</a>
 				</div>
 
 				<!-- Right side: User Profile -->

@@ -251,7 +251,7 @@
 				<div class="space-y-4">
 					<div>
 						<h3 class="text-xl font-bold text-gray-800">What is the difference between AI and Machine Learning?</h3>
-						<p class="text-sm text-gray-500 mt-1">Asked by John Doe • 2 hours ago</p>
+						<p class="text-sm text-gray-500 mt-1">Asked by Chirag A Chintaal• 2 hours ago</p>
 					</div>
 					
 					<!-- Tags -->
@@ -267,14 +267,14 @@
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
 									<path fill-rule="evenodd" d="M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z" clip-rule="evenodd" />
 								</svg>
-								<span class="text-gray-600">3 Answers</span>
+								<span class="text-gray-600">0 Answers</span>
 							</div>
 							<div class="flex items-center space-x-2">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
 									<path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
 									<path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
 								</svg>
-								<span class="text-gray-600">124 views</span>
+								<span class="text-gray-600">1 views</span>
 							</div>
 						</div>
 						
@@ -296,7 +296,7 @@
 				<div class="space-y-4">
 					<div>
 						<h3 class="text-xl font-bold text-gray-800">How does blockchain technology work?</h3>
-						<p class="text-sm text-gray-500 mt-1">Asked by Jane Smith • 5 hours ago</p>
+						<p class="text-sm text-gray-500 mt-1">Asked by Smruthi S Kadagadkai • 2 hours ago</p>
 					</div>
 					
 					<!-- Tags -->
@@ -312,14 +312,14 @@
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
 									<path fill-rule="evenodd" d="M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z" clip-rule="evenodd" />
 								</svg>
-								<span class="text-gray-600">5 Answers</span>
+								<span class="text-gray-600">0 Answers</span>
 							</div>
 							<div class="flex items-center space-x-2">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
 									<path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
 									<path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
 								</svg>
-								<span class="text-gray-600">256 views</span>
+								<span class="text-gray-600">2 views</span>
 							</div>
 						</div>
 						
