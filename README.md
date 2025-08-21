@@ -20,7 +20,6 @@ CogitoHub is a **modular education ecosystem** that combines **AI coaching, beha
 **Databases & Storage:**  
 - **Firebase Firestore** → Authentication, user identity, and sync  
 - **PostgreSQL (SQL)** → Structured user data, learning paths, and course catalog  
-- **MongoDB (NoSQL)** → Behavioral data, analytics events, unstructured logs  
 - **Object Storage (GCS/AWS S3)** → File storage for course assets and media  
 
 **AI/ML Layer:**  
